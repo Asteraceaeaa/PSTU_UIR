@@ -1,0 +1,143 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*                                                                       *)
+(*  This file was created under the Wolfram Enterprise licensing terms.  *)
+(*                                                                       *)
+(*       For additional information concerning CDF licensing see:        *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*                                                                       *)
+(*                                                                       *)
+(*************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1060,         20]
+NotebookDataLength[      4309,        120]
+NotebookOptionsPosition[      4635,        115]
+NotebookOutlinePosition[      5036,        131]
+CellTagsIndexPosition[      4993,        128]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Eq", "=", 
+   RowBox[{
+    RowBox[{
+    "{", "\"\<\:2606*: .\:ff61. o(\[GreaterFullEqual]\[EmptyDownTriangle]\
+\[LessFullEqual])o .\:ff61.:*\:2606\>\"", "}"}], "[", 
+    RowBox[{"[", "1", "]"}], "]"}]}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "\:041c\:0430\:0442\:0440\:0438\:0446\:044b", " ", 
+    "\:043f\:043e\:0432\:043e\:0440\:043e\:0442\:043e\:0432"}], " ", "*)"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Qzz", "[", "\[Gamma]_", "]"}], " ", ":=", " ", 
+  RowBox[{"{", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Cos", "[", "\[Gamma]", "]"}], ",", " ", 
+      RowBox[{"-", 
+       RowBox[{"Sin", "[", "\[Gamma]", "]"}]}], ",", " ", "0"}], "}"}], ",", 
+    "\[IndentingNewLine]", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Sin", "[", "\[Gamma]", "]"}], ",", " ", 
+      RowBox[{"Cos", "[", "\[Gamma]", "]"}], ",", " ", "0"}], "}"}], ",", 
+    "\[IndentingNewLine]", "\t    ", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", " ", "0", ",", " ", "1"}], "}"}]}], 
+   "\[IndentingNewLine]", "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Qx", "[", "\[Beta]", "]"}], " ", ":=", " ", 
+   RowBox[{"{", "\[IndentingNewLine]", "\t   ", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"1", ",", " ", "0", ",", " ", "0"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", " ", 
+       RowBox[{"Cos", "[", "\[Beta]", "]"}], ",", " ", 
+       RowBox[{"-", 
+        RowBox[{"Sin", "[", "\[Beta]", "]"}]}]}], "}"}], ",", 
+     "\[IndentingNewLine]", " ", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", " ", 
+       RowBox[{"Sin", "[", "\[Beta]", "]"}], ",", " ", 
+       RowBox[{"Cos", "[", "\[Beta]", "]"}]}], "}"}]}], "\[IndentingNewLine]",
+     "}"}]}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Qzz", " ", "//", " ", "MatrixForm"}]}], "Input",
+ CellChangeTimes->{{3.972092304692415*^9, 3.9720923269485703`*^9}, 
+   3.972092387467409*^9, {3.9720924415980225`*^9, 3.972092452033098*^9}, {
+   3.9720925119173985`*^9, 3.9720925464799805`*^9}, {3.972092581972809*^9, 
+   3.9720926030125523`*^9}, 3.9720927529082317`*^9, {3.97209514764456*^9, 
+   3.9720956747163982`*^9}},ExpressionUUID->"71687aed-521a-ef4f-b3a9-\
+77c10d7279e8"],
+
+Cell[BoxData["\<\"\:2606*: .\:ff61. o(\[GreaterFullEqual]\[EmptyDownTriangle]\
+\[LessFullEqual])o .\:ff61.:*\:2606\"\>"], "Output",
+ CellChangeTimes->{
+  3.9720924104555416`*^9, 3.972092454330902*^9, 3.9720925490217037`*^9, 
+   3.97209258490386*^9, {3.972095342198927*^9, 3.9720954112430897`*^9}, 
+   3.9720956629297733`*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"f857ac07-97f2-d141-a3f0-032968e50312"],
+
+Cell[BoxData[
+ TagBox["Qzz",
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{
+  3.9720924104555416`*^9, 3.972092454330902*^9, 3.9720925490217037`*^9, 
+   3.97209258490386*^9, {3.972095342198927*^9, 3.9720954112430897`*^9}, 
+   3.9720956629324055`*^9},
+ CellLabel->
+  "Out[22]//MatrixForm=",ExpressionUUID->"26e9dc14-627d-1148-8ca4-\
+ab9903a71146"]
+}, Open  ]]
+},
+WindowSize->{462.5, 231.5},
+WindowMargins->{{5.5, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"9eb6153b-39dd-3243-b382-5df832d988a3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[1482, 35, 2345, 57, 235, "Input",ExpressionUUID->"71687aed-521a-ef4f-b3a9-77c10d7279e8"],
+Cell[3830, 94, 404, 6, 24, "Output",ExpressionUUID->"f857ac07-97f2-d141-a3f0-032968e50312"],
+Cell[4237, 102, 382, 10, 35, "Output",ExpressionUUID->"26e9dc14-627d-1148-8ca4-ab9903a71146"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
